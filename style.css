@@ -683,3 +683,10 @@
 			border: 2px solid rgba(0, 0, 0, 0.8);
 		}
 	}
+	/* dodatki */
+	.smallfont {
+		font-size: 0.9em !important; 
+	}
+	.normfont {
+		font-size: 1em !important;
+	}
