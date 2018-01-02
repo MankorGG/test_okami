@@ -716,6 +716,8 @@
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
+		height: 300px;
+		overflow: scroll;
 	}
 	.bright .dropdown-content a {
 		color: black;
@@ -791,3 +793,9 @@
 	}
 	.bright .white {
 		background-color: rgba(255,255,255,0.6);
+	}
+	@media (max-width: 600px) {
+		.mobile {
+			display: block !important;
+		}
+	}
