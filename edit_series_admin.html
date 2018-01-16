@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Ōkami-Subs</title>
+	  <meta name="description" content="Anime po polsku w jakiści HD 720p i FULL HD 1080p"/>
+	  <meta name="keywords" content="anime, polsku, po polsku, online, 720p, HD, 1080p, FULL HD"/>
+	  <meta charset="UTF-8"/>
+	  <link rel="shortcut icon" type="image/x-icon" href="#"> <!-- favicon -->
+	  <script>
+      function flip() {
+        document.getElementById("main").classList.toggle('dark');
+        document.getElementById("main").classList.toggle('bright');
+      }
+    </script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+<body id="main" style="text-align: center; background-color: white;">
+	<!-- całość strony -->
+	<div style="display: block;">
+		<div>
+			<p class="bigfont">Edytujesz serię: Porno Gotowanie</p>
+			<button>Podgląd Serii</button> <button>Anuluj</button>
+		</div>
+		<div style="margin: 1% 40% 1% 0%; text-align: right; align: center;">
+			<form>
+				Tytuł: <input type="text" name="title">
+				<br><br>
+				Liczba odcinków: <input type="text" name="eps" size="5">
+				<br><br>
+				Liczba odcinków specjalnych: <input type="text" name="s_eps" size="5">
+				<br><br>
+				Status: <input type="radio" name="status" value="finished">Zakończone<br>
+				<input type="radio" name="status" value="active">Aktywne
+				<br><br>
+				Wyświetlać na głównej?<input type="checkbox" name="show" value="yes">
+				<br>
+				Aktualny sezon?<input type="checkbox" name="current" value="current">
+				<br><br>
+				Obrazek na str. główną (300x420): <input type="file" name="pic" style="font-size: 1em">
+				<br><br>
+				Obrazek do opisu (1080p/720p): <input type="file" name="desc_pic" style="font-size: 1em">
+				<br><br>
+				Opis anime:
+				<textarea input type="text" name="description" cols="30" rows="5">
+				</textarea>
+				<br><br>
+				Tłumacz: <input type="text" name="t/c" size="15">
+				<br><br>
+				Korektor: <input type="text" name="t/c" size="15">
+				<br><br>
+				Tagi: 
+				<input type="checkbox" name="tag" value="sol">#sliceoflife<br>
+				<input type="checkbox" name="tag" value="hentai">#hentai<br>
+				<input type="checkbox" name="tag" value="shoujo">#shoujo<br>
+				<input type="checkbox" name="tag" value="ecchi">#ecchi<br>
+				<br>
+				<input type="submit" value="Zapisz">
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
