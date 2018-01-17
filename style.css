@@ -24,20 +24,6 @@
 		text-align: center;
 		color: lightblue;
     }
-	
-	.bright #art {
-		width: 100%;
-		min-height: 302px;
-		background-image: url("https://image.ibb.co/mrKjem/kupa_baner.png");
-		background-repeat: no-repeat;
-	}
-	.dark #art {
-		width: 100%;
-		min-height: 302px;
-		background-image: url("https://image.ibb.co/mrKjem/kupa_baner.png");
-		background-repeat: no-repeat;
-	}
-	
 	.bright a:link, a:visited {
 		color: black;
 		font-size: 150%;
