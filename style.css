@@ -241,6 +241,8 @@
 	@media (max-width: 1200px) {
 	.description {
 		font-size: 13px;
+		overflow: auto;
+		max-height: 160px;
 	 }
 	 .left-main {
 		width: calc(100% - 18px);	 
