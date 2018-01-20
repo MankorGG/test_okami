@@ -25,6 +25,14 @@
 		text-align: center;
 		color: lightblue;
     }
+	.dark .hiddenondark {
+		visibility: hidden;
+		height: 0px;
+	}
+	.bright .hiddenonbright {
+		visibility: hidden;
+		height: 0px;
+	}
 	.bright a:link, a:visited {
 		color: black;
 		font-size: 150%;
@@ -277,6 +285,16 @@
 		background-color: rgba(255, 255, 255, 0.1);
 		border: 3px solid rgba(255, 24, 53, 0.8);
 		margin-bottom: 10px;
+	}
+	.bright .report {
+		border: 0px solid rgba(255,255, 0, 0);
+		background-color: rgba(255,255, 255, 0);
+		margin-top: 2px;
+	}
+	.dark .report {
+		border: 0px solid rgba(255,255, 0, 0);
+		background-color: rgba(255,255, 255, 0);
+		margin-top: 2px;
 	}
 	.change {
 		background-color: rgba(255,255, 255, 0);
@@ -823,4 +841,11 @@
 		.mobile {
 			display: block !important;
 		}
+	}
+	.checkbox {
+		border: 1px solid red !important;
+		padding: 1px !important;
+		font-size: 1em !important;
+		margin-left: 5px !important;
+		
 	}

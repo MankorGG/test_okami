@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div>
+	<div><h1>Zgłaszasz XX odcinek serii: Losowa seria</h1></div>
+	<form action="" method="post">
+		Problem:<br>
+		<label for="player">1. Player nie działa</label>
+		<input type="checkbox" id="player" name="error=" value="player"><br>
+		
+		<input type="text" name="player" placeholder="Wpisz nazwę playera"><br>
+		
+		<label for="desync">2. Odcinek jest rozsynchronizowany</label>
+		<input type="checkbox" id="desync" name="error=" value="desync"><br>
+
+		<label for="download">3. Nie działa link do pobierania</label>
+		<input type="checkbox" id="download" name="error=" value="missing_dl_link"><br>
+			
+		Inny problem:<br>
+		<textarea cols="30" rows="5"></textarea><br>
+			
+		<input type="submit" value="Wyślij zgłoszenie">
+	</form>
+</div>
+</body>
+</html>
