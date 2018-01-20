@@ -850,3 +850,10 @@
 		margin-left: 5px !important;
 		
 	}
+	.cookies {
+		position: fixed;
+		bottom: 0px;
+		background-color: rgba(0, 0, 0, 0.75);
+		color: white !important;
+		padding: 0% 10% 1% 10%;
+	}
