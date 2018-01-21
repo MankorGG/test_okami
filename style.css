@@ -289,13 +289,11 @@
 	.bright .report {
 		border: 0px solid rgba(255,255, 0, 0);
 		background-color: rgba(255,255, 255, 0);
-		margin: 2px 20px 0px 20px;
 	}
 	.dark .report {
 		border: 0px solid rgba(255,255, 0, 0);
 		background-color: rgba(255,255, 255, 0);
 		margin-top: 2px;
-		margin: 2px 20px 0px 20px;
 	}
 	.change {
 		background-color: rgba(255,255, 255, 0);
@@ -758,7 +756,7 @@
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
-		height: 300px;
+		max-height: 300px;
 		overflow: scroll;
 	}
 	.bright .dropdown-content a {
@@ -799,7 +797,7 @@
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
-		height: 300px;
+		max-height: 300px;
 		overflow: scroll;
 	}
 	.dark .dropdown-content a {
@@ -856,4 +854,9 @@
 		background-color: rgba(0, 0, 0, 0.75);
 		color: white !important;
 		padding: 0% 10% 1% 10%;
+	}
+	.ep-btns {
+		width:45%; 
+		display: inline; 
+		margin: 0% 10% 0% 10%;
 	}
