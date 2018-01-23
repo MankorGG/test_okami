@@ -44,12 +44,17 @@
 		<!-- lewa część strony tj. motyw, chat, new odc. i season -->
 		<div class="left-main">
 			<div class="left">
-						<div class="change-box">
-						<button class="change red" onclick="flip()">Jasny/Ciemny Motyw</button>
+						<div>
+						<audio controls="controls" class="radio">
+						<source src="https://listen.moe/stream" type="audio/ogg" />
+						</audio>
 						</div>
+							<div class="change-box">
+							<button class="change red" onclick="flip()">Jasny/Ciemny Motyw</button>
+							</div>
 			  <div class="recruitment">
-				<p class="bigfont">Ogłaszamy rekrutację na tłumaczy: <a class="red" style="font-size:1em" href="#">klik</a></p>
-				<p class="bigfont">Ogłaszamy rekrutację na korektorów: <a class="red" style="font-size:1em" href="#">klik</a></p>
+				<p class="medfont">Ogłaszamy rekrutację na tłumaczy: <a class="red" style="font-size:1em" href="#">klik</a></p>
+				<p class="medfont">Ogłaszamy rekrutację na korektorów: <a class="red" style="font-size:1em" href="#">klik</a></p>
 			  </div>
 			  <!-- góra lewej sekcji -->
 			  <div class="newest-eps">
@@ -63,6 +68,8 @@
 						<div class="margl"><a href="#">Najstarszy odcinek</a></div>
 					</div>
 			  </div>
+			<!-- chat  -->
+			<div id="chat"><iframe class="chat" height="520" frameborder="0" src="http://okami-subs.chatango.com/"></iframe></div>
 			  <!-- dół lewej sekcji -->
 			  <div class="recent-season">
 				<div class="season-text">Aktualny Sezon
@@ -79,8 +86,6 @@
 					</div>
 			  </div>
 			</div>
-		<!-- chat  -->
-		<div id="chat" class="chat"><iframe width="100%" height="520" frameborder="0" src="http://okami-subs.chatango.com/"></iframe></div>
 			<!-- patron -->
 			<div><a href="https://www.patreon.com/okamisubs" target="blank">
 			<div class="patron">
