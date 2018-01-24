@@ -28,10 +28,12 @@
 	.dark .hiddenondark {
 		visibility: hidden;
 		height: 0px;
+		width: 0px;
 	}
 	.bright .hiddenonbright {
 		visibility: hidden;
 		height: 0px;
+		width: 0px;
 	}
 	.bright a:link, a:visited {
 		color: black;
@@ -338,12 +340,27 @@
 		background-color: rgba(255, 255, 255, 0.1);
 		margin-bottom: 5px;
 		width: calc(100% - 6px);
+		border-top: 0px;
 	}
 	.bright .radio {
 		border: 3px solid rgba(200, 0, 0, 0.8);
 		background-color: rgba(255, 255, 255, 0.8);
 		margin-bottom: 5px;
 		width: calc(100% - 6px);
+		border-top: 0px; 
+	}
+	.dark .radio-text {
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		border-bottom: 0px solid black;
+		border-radius: 100px 100px 0px 0px;
+	}
+	.bright .radio-text {
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		border-bottom: 0px solid black;
+		border-radius: 100px 100px 0px 0px;
+	}
+	.margfroml {
+		margin-left: 5px;
 	}
 	/* lista bajek */
 	button {
@@ -510,13 +527,6 @@
 	.medfont2 {
 		font-size: 1.5em;
 	}
-	.players {
-		text-align: center;
-	}
-	.player {
-		display: inline-block;
-		margin: 0px 10px 3px 10px;
-	}
 	.vid {
 		padding: 5px 5px 5px 5px;
 	}
@@ -551,6 +561,16 @@
 	.pad0 {
 		margin: 0px;
 		padding: 0px;
+	}
+	.options {
+		width: 35%;
+	}
+	.players {
+		width: calc(65% - 10px);
+		margin-top: 5px;
+	}
+	.player {
+		margin: 0px 5px 0px 5px;
 	}
 		@media (max-width: 900px){
 		.bright .img-ep {
