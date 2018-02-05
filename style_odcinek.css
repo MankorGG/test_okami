@@ -1,0 +1,214 @@
+.bright .ep-lr {
+		width: calc(30% - 35px);
+		margin: 12px 5px 10px 5px;
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+	}
+	.dark .ep-lr {
+		width: calc(30% - 35px);
+		margin: 12px 5px 10px 5px;
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+	}
+	.bright .ep-mid {
+		width: calc(70% - 15px);
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		margin: 10px 10px 10px 10px;
+	}
+	.dark .ep-mid {
+		width: calc(70% - 15px);
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		margin: 10px 10px 10px 10px;
+	}
+	.bright .img-ep {
+		width: 100%;
+		border-bottom: 3px solid rgba(200, 0, 0, 0.8);
+	}
+	.dark .img-ep {
+		width: 100%;
+		border-bottom: 3px solid rgba(255, 24, 53, 0.8);
+	}
+	.bright .bord-bot {
+		border-bottom: 2px solid rgba(200, 0, 0, 0.8);
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.dark .bord-bot {
+		border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.bright .bord-bot2 {
+		border-bottom: 2px solid rgba(200, 0, 0, 0.8);
+		width: 100%;
+	}
+	.dark .bord-bot2 {
+		border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+		width: 100%;
+	}
+	.medfont {
+		font-size: 1.5em;
+		padding-bottom: 15px;
+	}
+	.medfont2 {
+		font-size: 1.5em;
+	}
+	.vid {
+		padding: 5px 5px 5px 5px;
+	}
+	.bright .prev {
+		width: 30%;
+		display: inline-block;
+		border-right: 2px solid rgba(200, 0, 0, 0.8);
+		text-align: left;
+	}
+	.dark .prev {
+		width: 30%;
+		display: inline-block;
+		border-right: 2px solid rgba(0, 0, 0, 0.8);
+		text-align: left;
+	}
+	.ep-number {
+		width: 30%;
+		display: inline-block;
+	}
+	.bright .next {
+		width: 30%;
+		display: inline-block;
+		border-left: 2px solid rgba(200, 0, 0, 0.8);
+		text-align: right;
+	}
+	.dark .next {
+		width: 30%;
+		display: inline-block;
+		border-left: 2px solid rgba(0, 0, 0, 0.8);
+		text-align: right;
+	}
+	.pad0 {
+		margin: 0px;
+		padding: 0px;
+	}
+	.options {
+		width: 35%;
+	}
+	.players {
+		width: calc(65% - 10px);
+		margin-top: 5px;
+	}
+	.player {
+		margin: 0px 5px 0px 5px;
+	}
+	.bright .report {
+		border: 0px solid rgba(255,255, 0, 0);
+		background-color: rgba(255,255, 255, 0);
+	}
+	.dark .report {
+		border: 0px solid rgba(255,255, 0, 0);
+		background-color: rgba(255,255, 255, 0);
+		margin-top: 2px;
+	}
+		@media (max-width: 900px){
+		.bright .img-ep {
+			width: 0%;
+		}
+		.dark .img-ep {
+			width: 0%;
+		}
+		.bright .ep-lr {
+			width: 100%;
+		}
+		.dark .ep-lr {
+			width: 100%;
+		}
+		.bright .ep-mid {
+			width: 100%;
+		}
+		.dark .ep-mid {
+			width: 100%;
+		}
+		.video {
+			width: 100%;
+			height: 250px;
+		}
+		.bright .prev {
+			width: 90%;
+			border: 0px;
+		}
+		.dark .prev {
+			width: 90%;
+			border: 0px;
+		}
+		.ep-number {
+			width: 90%;
+		}
+		.bright .next {
+			width: 90%;
+			border: 0px;
+		}
+		.dark .next {
+			width: 90%;
+			border: 0px;
+		}
+		}
+		@media (min-width: 901px), (max-width: 1000px){
+		.video {
+			width: 100%;
+			height: 375px;
+		}
+		}
+		@media (min-width: 1001px), (min-width: 1100px){
+		.video {
+			width: 100%;
+			height: 415px;
+		}
+		}
+		@media (min-width: 1101px), (min-width: 1200px){
+		.video {
+			width: 100%;
+			height: 455px;
+		}
+		}
+		@media (min-width: 1201px), (min-width: 1300px){
+		.video {
+			width: 100%;
+			height: 495px;
+		}
+		}
+		@media (min-width: 1301px), (min-width: 1400px){
+		.video {
+			width: 100%;
+			height: 535px;
+		}
+		}
+		@media (min-width: 1401px), (min-width: 1500px){
+		.video {
+			width: 100%;
+			height: 575px;
+		}
+		}
+		@media (min-width: 1501px), (min-width: 1600px){
+		.video {
+			width: 100%;
+			height: 615px;
+		}
+		}
+		@media (min-width: 1601px), (min-width: 1700px){
+		.video {
+			width: 100%;
+			height: 655px;
+		}
+		}
+		@media (min-width: 1701px), (min-width: 1800px){
+		.video {
+			width: 100%;
+			height: 695px;
+		}
+		}
+		@media (min-width: 1801px){
+		.video {
+			width: 100%;
+			height: 735px;
+		}
+		}

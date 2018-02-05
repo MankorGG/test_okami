@@ -1,0 +1,222 @@
+	.scrollup {
+		opacity: 0.6;
+		background-color: rgba(255,255, 0, 1);
+		right: 0%;
+		bottom: 2%;
+		position: fixed;
+		text-align: left;
+		border: 1px solid rgba(255, 255, 0, 1);
+		border-radius: 6px 0px 0px 6px;
+		padding: 1px;
+	}
+	.dark .blacktext {
+		color: black !important;
+	}
+	.scrolldn {
+		opacity: 0.6;
+		font-size: 0em;
+	}
+	.dark .radio {
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		background-color: rgba(255, 255, 255, 0.1);
+		margin-bottom: 5px;
+		width: calc(100% - 6px);
+		border-top: 0px;
+	}
+	.bright .radio {
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-bottom: 5px;
+		width: calc(100% - 6px);
+		border-top: 0px; 
+	}
+	.dark .radio-text {
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		border-bottom: 0px solid black;
+		border-radius: 100px 100px 0px 0px;
+	}
+	.bright .radio-text {
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		border-bottom: 0px solid black;
+		border-radius: 100px 100px 0px 0px;
+	}
+	.bright .recruitment {
+		margin-bottom: 10px;
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		flex-wrap: wrap;
+		padding: 5px 5px 0px 5px;
+	}
+	.dark .recruitment {
+		margin-bottom: 10px;
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		flex-wrap: wrap;
+		padding: 5px 5px 0px 5px;
+	}
+	.bright .patron {
+		background-color: rgba(255, 255, 255, 0.2);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		margin-top: 10px;
+		padding: 3% 30% 1% 30%;
+		align: center;
+	}
+	.dark .patron {
+		background-color: rgba(255, 255, 255, 1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		margin-top: 10px;
+		padding: 3% 30% 1% 30%;
+		align: center;
+	}
+	.bright .chat {
+		margin-top: 10px;
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		width: calc(100% - 6px);
+	}
+	.dark .chat {
+		margin-top: 10px;
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		width: calc(100% - 6px);
+	}
+	.right {
+		width: 70%;
+		flex-direction: column;
+	}
+	.bright .episode {
+		flex-wrap: nowrap;
+		padding: 10px;
+		background-color: rgba(173,216,230, 0.5);
+		margin: 10px 8px 10px 8px;
+	}
+	.dark .episode {
+		flex-wrap: nowrap;
+		padding: 10px;
+		background-color: rgba(255, 255, 255, 0.1);
+		margin: 10px 8px 10px 8px;
+	}
+	.img {
+		width: 180px;
+		height: 252px;
+		display: block;
+		border: 3px solid rgba(0, 0, 0, 0.8);
+		border-radius: 5px;
+	}
+	.nowrap {
+		flex-wrap: nowrap;
+	}
+	.column {
+		flex-direction: column;
+	}
+	.grow {
+		flex-grow: 1;
+	}
+	.bright .title {
+		margin: 0px -5px 0px 5px;
+		background-color: rgba(0, 0, 255, 0.1);
+		font-size: 16px;
+		
+	}
+	.dark .title {
+		margin: 0px -5px 0px 5px;
+		background-color: rgba(30, 0, 0, 0.25);
+		font-size: 16px;
+	}
+	.con-img {
+		align-items: center;
+		justify-content: center;
+	}
+	.ep {
+		text-align: left;
+		padding: 10px 5px 10px 10px;
+		margin-right: 20px;
+		margin-left: 10px;
+	}
+	.description {
+		text-align: left;
+		padding: 10px 5px 0px 10px;
+		margin-right: 20px;
+		margin-left: 10px;
+		font-size: 15px;
+		overflow: auto;
+		max-height: 160px;
+	}
+	.bigfont {
+		font-size: 2em !important;
+		margin-right: 5px;
+	}
+	.bright .recent-season {
+		margin-top: 10px;
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+	}
+	.dark .recent-season {
+		margin-top: 10px;
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+	}
+	.bright .newest-eps {
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+	}
+	.dark .newest-eps {
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+	}
+	.new {
+		display: block;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.left-main {
+		width: calc(30% - 26px);
+		height: 1%;
+		margin: 10px 8px 10px 8px;
+	}
+	.left {
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		flex-direction: column;
+	}
+	.cookies {
+		position: fixed;
+		bottom: 0px;
+		background-color: rgba(0, 0, 0, 0.75);
+		color: white !important;
+		padding: 0% 10% 1% 10%;
+	}
+	
+	
+	
+	
+	
+	
+	@media (max-width: 1200px) {
+	.description {
+		font-size: 13px;
+	 }
+	 .left-main {
+		width: calc(100% - 18px);	 
+	 }
+	 .right {
+		width: 100%;
+	 }
+	 .episode {
+		 flex-wrap: nowrap;
+		 width: calc(100% - 38px);
+	 }
+	 .scrolldn {
+		 background-color: rgba(255,255, 0, 1);
+		 right: 0%;
+		 top: 2%;
+		 position: fixed;
+		 text-align: left;
+		 border: 1px solid rgba(255,255, 0, 1);
+		 border-radius: 6px 0px 0px 6px;
+		 padding: 1px;
+		 font-size: 1.5em;
+	 }
+	 .scrollup {
+		font-size: 1.5em;
+	 }
+	}

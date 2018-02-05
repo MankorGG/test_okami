@@ -1,0 +1,197 @@
+	@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700');
+	html {
+		display: block;
+		font-size: 12px;
+		font-weight: bold;
+		font-family: 'Noto Serif', serif;
+	}
+	::-webkit-scrollbar-track
+	{
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		border-radius: 10px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	::-webkit-scrollbar
+	{
+		width: 12px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	::-webkit-scrollbar-thumb
+	{
+		border-radius: 10px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+    .bright {
+		margin: 0px;
+		/*background: linear-gradient(white, white, white, white, orangered, orange, orange, red);
+		background-image: url("https://image.ibb.co/nndHVR/t_o_kupa.png");*/
+		background-color: white;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		text-align: center;
+		color: black;
+    }
+	.dark {
+		margin: 0px;
+		background-color: black;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		text-align: center;
+		color: lightblue;
+    }
+	.dark .hiddenondark {
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+	}
+	.bright .hiddenonbright {
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+	}
+	.bright a:link, a:visited {
+		color: black;
+		font-size: 150%;
+		text-decoration: none;
+	}
+	.dark a:link, a:visited {
+		color: white;
+		font-size: 150%;
+		text-decoration: none;
+	}
+	.bright a:visited {
+		color: black;
+	}
+	.dark a:visited {
+		color: white;
+	}
+	.bright .red {
+		color: red !important;
+	}
+	.dark .red {
+		color: white !important;
+	}
+	.bright .navbar {
+		margin-top: -6px;
+		padding: 0px;
+		overflow: hidden;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		position: center;
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.575);
+		border-top: 3px solid rgba(200, 0, 0, 0.475);
+		border-bottom: 3px solid rgba(200, 0, 0, 0.475);
+	}
+	.dark .navbar {
+		margin-top: -6px;
+		padding: 0px;
+		overflow: hidden;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		position: center;
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.1);
+		border-top: 3px solid rgba(255, 24, 53, 0.775);
+		border-bottom: 3px solid rgba(255, 24, 53, 0.775);
+	}
+	li {
+		display: inline-block;
+		margin: 0px 20px;
+		font-size: 125%;
+	}
+	.icon {
+		height: 25px;
+		width: 25px;
+		padding-right: 5px;
+		margin-top: 2px;
+	}
+	.contents {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.bright .change-box {
+		background-color: rgba(255, 255, 255, 0.8);
+		border: 3px solid rgba(200, 0, 0, 0.8);
+		margin-bottom: 10px;
+	}
+	.dark .change-box {
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 3px solid rgba(255, 24, 53, 0.8);
+		margin-bottom: 10px;
+	}
+	.bright .borders {
+		margin: 10px 0px 10px 0px;
+		border-bottom: 3px solid rgba(255, 0, 0, 0.8);
+		border-top: 3px solid rgba(255, 0, 0, 0.8);
+		padding: 5px 0px 5px 0px;
+		background-color: rgba(255, 255, 255, 0.35);
+	}
+	.dark .borders {
+		margin: 10px 0px 10px 0px;
+		border-bottom: 3px solid rgba(255, 24, 53, 0.8);
+		border-top: 3px solid rgba(255, 24, 53, 0.8);
+		padding: 5px 0px 5px 0px;
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	.change {
+		background-color: rgba(255,255, 255, 0);
+		border: 0px solid rgba(255,255, 0, 0);
+		width: 100%;
+		height: 30px;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	.medfont {
+		font-size: 1.5em;
+		padding-bottom: 15px;
+	}
+	.medfont2 {
+		font-size: 1.5em;
+	}
+	.smallfont {
+		font-size: 0.97em !important; 
+	}
+	.normfont {
+		font-size: 1em !important;
+	}
+	.bigfont {
+		font-size: 2em !important;
+		margin-right: 5px;
+	}
+	.aleft {
+		text-align: left;
+		padding-left: 0px;
+	}
+	.margl {
+		margin: 8px 10px 8px 10px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	}
+	.margr {
+		margin: 8px 10px 8px 10px;
+		font-size: 1em !important;
+	}
+	button {
+	cursor: pointer;
+	}
+	
+	
+	
+	
+	@media (max-width: 600px) {
+		.mobile {
+			display: block !important;
+		}
+	}
