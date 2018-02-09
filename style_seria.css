@@ -41,11 +41,9 @@
 	}
 	.bright .newest-eps {
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 	}
 	.dark .newest-eps {
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
 	}
 	.dark .brighter {
 		background-color: rgba(255, 255, 255, 0.15);

@@ -1,26 +1,22 @@
-.bright .ep-lr {
+	.ep-lr {
 		width: calc(30% - 35px);
 		margin: 12px 5px 10px 5px;
+	}
+	.bright .ep-lr {
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 	}
 	.dark .ep-lr {
-		width: calc(30% - 35px);
-		margin: 12px 5px 10px 5px;
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
+	}
+	.ep-mid {
+		width: calc(70% - 15px);
+		margin: 10px 10px 10px 10px;
 	}
 	.bright .ep-mid {
-		width: calc(70% - 15px);
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
-		margin: 10px 10px 10px 10px;
 	}
 	.dark .ep-mid {
-		width: calc(70% - 15px);
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
-		margin: 10px 10px 10px 10px;
 	}
 	.bright .img-ep {
 		width: 100%;
@@ -30,15 +26,15 @@
 		width: 100%;
 		border-bottom: 3px solid rgba(255, 24, 53, 0.8);
 	}
-	.bright .bord-bot {
-		border-bottom: 2px solid rgba(200, 0, 0, 0.8);
+	.bord-bot {
 		width: 100%;
 		padding-bottom: 10px;
 	}
+	.bright .bord-bot {
+		border-bottom: 2px solid rgba(200, 0, 0, 0.8);
+	}
 	.dark .bord-bot {
 		border-bottom: 2px solid rgba(0, 0, 0, 0.8);
-		width: 100%;
-		padding-bottom: 10px;
 	}
 	.bright .bord-bot2 {
 		border-bottom: 2px solid rgba(200, 0, 0, 0.8);
@@ -58,33 +54,31 @@
 	.vid {
 		padding: 5px 5px 5px 5px;
 	}
-	.bright .prev {
+	.prev {
 		width: 30%;
 		display: inline-block;
-		border-right: 2px solid rgba(200, 0, 0, 0.8);
 		text-align: left;
 	}
+	.bright .prev {
+		border-right: 2px solid rgba(200, 0, 0, 0.8);
+	}
 	.dark .prev {
-		width: 30%;
-		display: inline-block;
 		border-right: 2px solid rgba(0, 0, 0, 0.8);
-		text-align: left;
 	}
 	.ep-number {
 		width: 30%;
 		display: inline-block;
 	}
-	.bright .next {
+	.next {
 		width: 30%;
 		display: inline-block;
-		border-left: 2px solid rgba(200, 0, 0, 0.8);
 		text-align: right;
 	}
+	.bright .next {
+		border-left: 2px solid rgba(200, 0, 0, 0.8);
+	}
 	.dark .next {
-		width: 30%;
-		display: inline-block;
 		border-left: 2px solid rgba(0, 0, 0, 0.8);
-		text-align: right;
 	}
 	.pad0 {
 		margin: 0px;
@@ -107,7 +101,6 @@
 	.dark .report {
 		border: 0px solid rgba(255,255, 0, 0);
 		background-color: rgba(255,255, 255, 0);
-		margin-top: 2px;
 	}
 		@media (max-width: 900px){
 		.bright .img-ep {

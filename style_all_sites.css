@@ -25,7 +25,6 @@
 		background-color: rgba(0, 0, 0, 0.5);
 	}
     .bright {
-		margin: 0px;
 		/*background: linear-gradient(white, white, white, white, orangered, orange, orange, red);
 		background-image: url("https://image.ibb.co/nndHVR/t_o_kupa.png");*/
 		background-color: white;
@@ -36,7 +35,6 @@
 		color: black;
     }
 	.dark {
-		margin: 0px;
 		background-color: black;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -78,10 +76,7 @@
 	}
 	.bright .navbar {
 		margin-top: -6px;
-		padding: 0px;
 		overflow: hidden;
-		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
 		position: center;
 		text-decoration: none;
@@ -91,10 +86,7 @@
 	}
 	.dark .navbar {
 		margin-top: -6px;
-		padding: 0px;
 		overflow: hidden;
-		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
 		position: center;
 		text-decoration: none;
@@ -122,14 +114,18 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+	.bright .w-borders {
+		border: 3px solid rgba(200, 0, 0, 0.8);
+	}
+	.dark .w-borders {
+		border: 3px solid rgba(255, 24, 53, 0.8);
+	}
 	.bright .change-box {
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 		margin-bottom: 10px;
 	}
 	.dark .change-box {
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
 		margin-bottom: 10px;
 	}
 	.bright .borders {

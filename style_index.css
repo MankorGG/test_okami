@@ -17,14 +17,12 @@
 		font-size: 0em;
 	}
 	.dark .radio {
-		border: 3px solid rgba(255, 24, 53, 0.8);
 		background-color: rgba(255, 255, 255, 0.1);
 		margin-bottom: 5px;
 		width: calc(100% - 6px);
 		border-top: 0px;
 	}
 	.bright .radio {
-		border: 3px solid rgba(200, 0, 0, 0.8);
 		background-color: rgba(255, 255, 255, 0.8);
 		margin-bottom: 5px;
 		width: calc(100% - 6px);
@@ -43,39 +41,31 @@
 	.bright .recruitment {
 		margin-bottom: 10px;
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 		flex-wrap: wrap;
 		padding: 5px 5px 0px 5px;
 	}
 	.dark .recruitment {
 		margin-bottom: 10px;
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
 		flex-wrap: wrap;
 		padding: 5px 5px 0px 5px;
 	}
 	.bright .patron {
 		background-color: rgba(255, 255, 255, 0.2);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 		margin-top: 10px;
 		padding: 3% 30% 1% 30%;
-		align: center;
 	}
 	.dark .patron {
 		background-color: rgba(255, 255, 255, 1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
 		margin-top: 10px;
 		padding: 3% 30% 1% 30%;
-		align: center;
 	}
 	.bright .chat {
 		margin-top: 10px;
-		border: 3px solid rgba(200, 0, 0, 0.8);
 		width: calc(100% - 6px);
 	}
 	.dark .chat {
 		margin-top: 10px;
-		border: 3px solid rgba(255, 24, 53, 0.8);
 		width: calc(100% - 6px);
 	}
 	.right {
@@ -140,27 +130,19 @@
 		overflow: auto;
 		max-height: 160px;
 	}
-	.bigfont {
-		font-size: 2em !important;
-		margin-right: 5px;
-	}
 	.bright .recent-season {
 		margin-top: 10px;
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 	}
 	.dark .recent-season {
 		margin-top: 10px;
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
 	}
 	.bright .newest-eps {
 		background-color: rgba(255, 255, 255, 0.8);
-		border: 3px solid rgba(200, 0, 0, 0.8);
 	}
 	.dark .newest-eps {
 		background-color: rgba(255, 255, 255, 0.1);
-		border: 3px solid rgba(255, 24, 53, 0.8);
 	}
 	.new {
 		display: block;

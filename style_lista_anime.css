@@ -1,26 +1,24 @@
-	.bright table {
+	table {
 		width: 100%;
 		text-align: left;
 		border-collapse: collapse;
+	}
+	.bright table {
 		background-color: rgba(255, 255, 255, 0.35);
 	}
 	.dark table {
-		width: 100%;
-		text-align: left;
-		border-collapse: collapse;
 		background-color: rgba(255, 255, 255, 0.1);
+	}
+	th {
+		padding-left: 1%;
+		padding-right: 1%;
+		font-size: 1.3em;
 	}
 	.bright th {
 		border-bottom: 2px solid rgba(255, 0, 0, 0.6);
-		padding-left: 1%;
-		padding-right: 1%;
-		font-size: 1.3em;
 	}
 	.dark th {
 		border-bottom: 2px solid rgba(255, 24, 53, 0.6);
-		padding-left: 1%;
-		padding-right: 1%;
-		font-size: 1.3em;
 	}
 	.bright .trtop {
 		border-top: 2px solid rgba(255, 0, 0, 0.6);
@@ -35,22 +33,23 @@
 	.search {
 		width: 45%;
 	}
+	.dropbtn {
+		border-radius:.25em;
+		padding: 5px;
+		margin: 5px 0px 5px 0px;
+		font-size: 16px;
+		cursor: pointer;
+	}
 	.bright .dropbtn {
     background-color: rgba(200, 0, 0, 0);
     color: black;
-    padding: 5px;
-	margin: 5px 0px 5px 0px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
 	border:2px solid rgba(200,0,0,.5);
-	border-radius:.25em;
 	}
-	.bright .dropdown {
+	.dropdown {
 		position: relative;
 		display: inline-block;
 	}
-	.bright .dropdown-content {
+	.dropdown-content {
 		display: none;
 		position: absolute;
 		background-color: #f9f9f9;
@@ -77,29 +76,10 @@
 	}
 	
 	.dark .dropbtn {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    padding: 5px;
-	margin: 5px 0px 5px 0px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-	border:2px solid rgba(255, 24, 53,.5);
-	border-radius:.25em;
-	}
-	.dark .dropdown {
-		position: relative;
-		display: inline-block;
-	}
-	.dark .dropdown-content {
-		display: none;
-		position: absolute;
-		background-color: #f9f9f9;
-		min-width: 160px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-		max-height: 300px;
-		overflow: scroll;
+		background-color: rgba(0, 0, 0, 0);
+		color: white;
+		border:2px solid rgba(255, 24, 53,.5);
+
 	}
 	.dark .dropdown-content a {
 		color: black;
@@ -117,21 +97,19 @@
 	.dark .dropdown:hover .dropbtn {
 		background-color: rgba(0, 0, 0, 0.8);
 	}
-	.bright input {
-		border:2px solid rgba(200,0,0,.5);
-		font-size:1.75em;
-		padding:.25em .5em .3125em;
-		color:rgba(0,0,0,.5);
+	input {
 		border-radius:.25em;
 		background:transparent;
+		font-size:1.75em;
+		padding:.25em .5em .3125em;
+	}
+	.bright input {
+		border:2px solid rgba(200,0,0,.5);
+		color:rgba(0,0,0,.5);
 	}
 	.dark input {
 		border:2px solid rgba(255, 24, 53,.5);
-		font-size:1.75em;
-		padding:.25em .5em .3125em;
 		color:rgba(255,255,255,1);
-		border-radius:.25em;
-		background:transparent;
 	}
 	.bright .white {
 		background-color: rgba(255,255,255,0.6);
