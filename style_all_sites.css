@@ -33,6 +33,8 @@
 		background-attachment: fixed;
 		text-align: center;
 		color: black;
+		margin: 0px;
+		padding: 0px;
     }
 	.dark {
 		background-color: black;
@@ -41,6 +43,8 @@
 		background-attachment: fixed;
 		text-align: center;
 		color: lightblue;
+		margin: 0px;
+		padding: 0px;
     }
 	.dark .hiddenondark {
 		visibility: hidden;
