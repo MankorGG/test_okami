@@ -186,7 +186,9 @@
 	button {
 	cursor: pointer;
 	}
-	
+	.margall {
+		margin: 15px 30px 15px 30px;
+	}
 	
 	
 	
