@@ -42,7 +42,7 @@
 		background-image: url("https://archive-media-0.nyafuu.org/wsr/image/1464/90/1464906317285.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center; 
+		background-position: top; 
 	}
 	@media (max-width: 1200px) {
 		.membcol {
