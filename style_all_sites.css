@@ -103,6 +103,9 @@
 		margin: 0px 20px;
 		font-size: 125%;
 	}
+	ul {
+		-webkit-padding-start: 0px;
+	}
 	.icon {
 		height: 25px;
 		width: 25px;
