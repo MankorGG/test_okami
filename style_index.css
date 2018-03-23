@@ -130,6 +130,11 @@
 		overflow: auto;
 		max-height: 160px;
 	}
+	.quote {
+		text-align: center;
+		padding: 5px 10px 5px 10px;
+		margin: 0px;
+	}
 	.bright .recent-season {
 		margin-top: 10px;
 		background-color: rgba(255, 255, 255, 0.8);
